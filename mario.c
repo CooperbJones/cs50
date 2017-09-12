@@ -15,15 +15,15 @@ int main(void)
 
 void PrintPyramid(int height)
 {
-    // the number of rows to print
+   
     for (int i = 0; i < height; i++)
     {
-        // print the spaces
+        
         for (int j = 0; j < (height - i - 1); j++)
         { 
             printf(" ");
         }
-        // print the hashes
+       
         for (int k = 0; k < i + 2; k++)
         {
             printf("#");
